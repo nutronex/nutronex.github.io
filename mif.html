@@ -2,10 +2,10 @@
     <head><title>foo</title>
 </head>
 	<body>
-	    <h1>bar</h1><iframe id=myif src=“https://nutronex.github.io/mif.html”>
+	    <h1>bar</h1>
 <script>
 	alert(111);
-	prompt(222);
+	
 	//prompt(parent.document);
 	
 x="https://www.kaggle.com/";
@@ -13,8 +13,9 @@ x="https://www.kaggle.com/";
 //document.domain = "www.kaggle.com";
 y=document.createElement("iframe");
 y.setAttribute("src",x);
-//document.body.append(y);
-	document.write(document.getElementById("myif"));
+document.body.append(y);
+	alert(y)
+	//document.write(document.getElementById("myif"));
 
 	
 </script>
