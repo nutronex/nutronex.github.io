@@ -1,3 +1,4 @@
 body{
 color:expression(alert(1))
+background:red;
 }
