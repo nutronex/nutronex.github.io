@@ -1,12 +1,9 @@
 <html>
     <head><title></title></head>
-<body>
-	    <h1>open redirect test</h1>
-	
-</body>	
-
 <script>
-		location.href="javascript:confirm(1)";
+	function redirect(){window.location.replace("myscheme:someaction");}
+	window.onload = redirect;
+	//location.href="javascript:confirm(1)";
 </script>
-		
+<body><h1>open redirect test</h1></body>	
 </html>
