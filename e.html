@@ -1,7 +1,10 @@
 <html>
     <head><title></title></head>
 <script>
-	function redirect(){window.location.replace("myscheme:someaction");}
+	function redirect(){
+		//document.location = 'myscheme:someaction';
+		window.location.replace("javascript:confirm(7)");
+	}
 	window.onload = redirect;
 	//location.href="javascript:confirm(1)";
 </script>
