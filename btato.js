@@ -8,3 +8,4 @@ $.get( "https://xxxxxxx.bitrix24.com/company/personal/user/8/?IFRAME=Y&IFRAME_TY
                                                               {SITE_ID:'s1',sessid:sessid,signedParameters:sp},function(xd){});
 })
 });
+ 
