@@ -1,16 +1,6 @@
 <html>
-    <head><title></title></head>
-<script>
-	function redirect(){
-		document.location = 'javascript:confirm(7)';
-		//window.location.replace("javascript:confirm(7)");
-	}
-	alert(document.domain);
-	//window.onload = redirect;
-	//location.href="javascript:confirm(1)";
-</script>
-<body><h1>open redirect test</h1></body>	
-	</iframe></iframe>
+    <head></head>
+    <body>
+        <iframe src="javascript:parent.document.body.innerHTML='<img/src=x onerror=alert(document.domain)//>'" sandbox="allow-scripts allow-same-origin"></iframe>
+    </body>
 </html>
-</iframe>
-<xxxxxxxx>
