@@ -1,0 +1,1386 @@
+{
+    "shortFormText": "In order to properly route your inquiry to IB's Customer Service team, please provide the following information. Responses will be sent to the email supplied below.",
+    "reportText": "Report A Problem",
+    "longFormText": "To protect the security of your account, IB recommends that you send your inquiry using the secure Message Center system located in Client Portal. If for some reason you are unable to access the secure messaging system, you may use the form below. Please be aware commercial email is an inherently insecure medium and we strongly recommend against its use on any public computer. You should not reveal any information here that may put the security of your account at risk. The fields marked with an asterisk (*) are required and the message will only be transmitted if the User Name, Account ID, and Email Address are consistent with the data for the account.",
+    "longFormInfoBox": "Please note that the response to this inquiry will be made available for viewing solely through the secure Message Center available within Client Portal. If your inquiry concerns account login, please note that access can only be restored by contacting Customer Service via telephone at which point we will verify your identity.",
+    "continue": "Continue",
+    "clear": "Clear Form",
+    "firstLabel": "First Name'\"><xxzxx>",
+    "lastLabel": "Last Name",
+    "emailLabel": "Email Address",
+    "firmLabel": "Firm Name",
+    "confirmEmailLabel": "Confirm Email Address",
+    "startover": "Start Over",
+    "hasAccount": "I Have An Account",
+    "hasAccountShort": "Account",
+    "noAccount": "I Do Not Have An Account",
+    "noAccountShort": "No Account",
+    "inquiryText": "Send an Inquiry to Interactive Brokers",
+    "required": "Required",
+    "emailMismatch": "Emails must match",
+    "patternMismatch": "Please type a valid email address.",
+    "usernameLabel": "User Name",
+    "acctidLabel": "Account Number",
+    "streetLabel": "Street",
+    "cityLabel": "City",
+    "stateLabel": "State/Province",
+    "countryLabel": "Country",
+    "zipLabel": "Postal Code",
+    "phoneLabel": "Phone",
+    "mainLabel": "Category",
+    "subLabel": "Topic",
+    "summaryLabel": "Subject",
+    "detailLabel": "Message",
+    "detailPlaceholder": "Your brief summary was",
+    "usrtypeLabel": "I am a ...",
+    "closePrompt": "Thank you. You may now close the window.",
+    "nonprofessional": "Non-Professional",
+    "trader": "Professional Trader",
+    "cta": "Financial Advisor / CTA",
+    "thanks": "Thanks for your inquiry.",
+    "linksLabel": "Clients asking similar questions have found the following links useful",
+    "countries": {
+        "USA": {
+            "label": "United States",
+            "value": "United States"
+        },
+        "CAN": {
+            "label": "Canada",
+            "value": "Canada"
+        },
+        "GBR": {
+            "label": "United Kingdom",
+            "value": "United Kingdom"
+        },
+        "DEU": {
+            "label": "Germany",
+            "value": "Germany"
+        },
+        "CHE": {
+            "label": "Switzerland",
+            "value": "Switzerland"
+        },
+        "HKG": {
+            "label": "Hong Kong Special Administrative Region of China",
+            "value": "Hong Kong Special Administrative Region of China"
+        },
+        "AUS": {
+            "label": "Australia",
+            "value": "Australia"
+        },
+        "AFG": {
+            "label": "Afghanistan",
+            "value": "Afghanistan"
+        },
+        "ALA": {
+            "label": "Aland Islands",
+            "value": "Aland Islands"
+        },
+        "ALB": {
+            "label": "Albania",
+            "value": "Albania"
+        },
+        "DZA": {
+            "label": "Algeria",
+            "value": "Algeria"
+        },
+        "ASM": {
+            "label": "American Samoa",
+            "value": "American Samoa"
+        },
+        "AND": {
+            "label": "Andorra",
+            "value": "Andorra"
+        },
+        "AGO": {
+            "label": "Angola",
+            "value": "Angola"
+        },
+        "AIA": {
+            "label": "Anguilla",
+            "value": "Anguilla"
+        },
+        "ATA": {
+            "label": "Antarctica",
+            "value": "Antarctica"
+        },
+        "ATG": {
+            "label": "Antigua and Barbuda",
+            "value": "Antigua and Barbuda"
+        },
+        "ARG": {
+            "label": "Argentina",
+            "value": "Argentina"
+        },
+        "ARM": {
+            "label": "Armenia",
+            "value": "Armenia"
+        },
+        "ABW": {
+            "label": "Aruba",
+            "value": "Aruba"
+        },
+        "AUT": {
+            "label": "Austria",
+            "value": "Austria"
+        },
+        "AZE": {
+            "label": "Azerbaijan",
+            "value": "Azerbaijan"
+        },
+        "BHS": {
+            "label": "Bahamas",
+            "value": "Bahamas"
+        },
+        "BHR": {
+            "label": "Bahrain",
+            "value": "Bahrain"
+        },
+        "BGD": {
+            "label": "Bangladesh",
+            "value": "Bangladesh"
+        },
+        "BRB": {
+            "label": "Barbados",
+            "value": "Barbados"
+        },
+        "BLR": {
+            "label": "Belarus",
+            "value": "Belarus"
+        },
+        "BEL": {
+            "label": "Belgium",
+            "value": "Belgium"
+        },
+        "BLZ": {
+            "label": "Belize",
+            "value": "Belize"
+        },
+        "BEN": {
+            "label": "Benin",
+            "value": "Benin"
+        },
+        "BMU": {
+            "label": "Bermuda",
+            "value": "Bermuda"
+        },
+        "BTN": {
+            "label": "Bhutan",
+            "value": "Bhutan"
+        },
+        "BOL": {
+            "label": "Bolivia",
+            "value": "Bolivia"
+        },
+        "BIH": {
+            "label": "Bosnia and Herzegovina",
+            "value": "Bosnia and Herzegovina"
+        },
+        "BWA": {
+            "label": "Botswana",
+            "value": "Botswana"
+        },
+        "BRA": {
+            "label": "Brazil",
+            "value": "Brazil"
+        },
+        "IOT": {
+            "label": "British Indian Ocean Territory",
+            "value": "British Indian Ocean Territory"
+        },
+        "VGB": {
+            "label": "British Virgin Islands",
+            "value": "British Virgin Islands"
+        },
+        "BRN": {
+            "label": "Brunei Darussalam",
+            "value": "Brunei Darussalam"
+        },
+        "BGR": {
+            "label": "Bulgaria",
+            "value": "Bulgaria"
+        },
+        "BFA": {
+            "label": "Burkina Faso",
+            "value": "Burkina Faso"
+        },
+        "BDI": {
+            "label": "Burundi",
+            "value": "Burundi"
+        },
+        "KHM": {
+            "label": "Cambodia",
+            "value": "Cambodia"
+        },
+        "CMR": {
+            "label": "Cameroon",
+            "value": "Cameroon"
+        },
+        "CPV": {
+            "label": "Cape Verde",
+            "value": "Cape Verde"
+        },
+        "CYM": {
+            "label": "Cayman Islands",
+            "value": "Cayman Islands"
+        },
+        "CAF": {
+            "label": "Central African Republic",
+            "value": "Central African Republic"
+        },
+        "TCD": {
+            "label": "Chad",
+            "value": "Chad"
+        },
+        "JER": {
+            "label": "Channel Islands and Jersey",
+            "value": "Channel Islands and Jersey"
+        },
+        "CHL": {
+            "label": "Chile",
+            "value": "Chile"
+        },
+        "CHN": {
+            "label": "China",
+            "value": "China"
+        },
+        "COL": {
+            "label": "Colombia",
+            "value": "Colombia"
+        },
+        "COM": {
+            "label": "Comoros",
+            "value": "Comoros"
+        },
+        "COG": {
+            "label": "Congo",
+            "value": "Congo"
+        },
+        "COK": {
+            "label": "Cook Islands",
+            "value": "Cook Islands"
+        },
+        "CRI": {
+            "label": "Costa Rica",
+            "value": "Costa Rica"
+        },
+        "CIV": {
+            "label": "Cote d'Ivoire",
+            "value": "Cote d'Ivoire"
+        },
+        "HRV": {
+            "label": "Croatia",
+            "value": "Croatia"
+        },
+        "CUB": {
+            "label": "Cuba",
+            "value": "Cuba"
+        },
+        "CUW": {
+            "label": "Curacao",
+            "value": "Curacao"
+        },
+        "CYP": {
+            "label": "Cyprus",
+            "value": "Cyprus"
+        },
+        "CZE": {
+            "label": "Czech Republic",
+            "value": "Czech Republic"
+        },
+        "PRK": {
+            "label": "Democratic Peoples Republic of Korea (North Korea]",
+            "value": "Democratic Peoples Republic of Korea (North Korea]"
+        },
+        "COD": {
+            "label": "Democratic Republic of the Congo",
+            "value": "Democratic Republic of the Congo"
+        },
+        "DNK": {
+            "label": "Denmark",
+            "value": "Denmark"
+        },
+        "DJI": {
+            "label": "Djibouti",
+            "value": "Djibouti"
+        },
+        "DMA": {
+            "label": "Dominica",
+            "value": "Dominica"
+        },
+        "DOM": {
+            "label": "Dominican Republic",
+            "value": "Dominican Republic"
+        },
+        "TMP": {
+            "label": "East Timor",
+            "value": "East Timor"
+        },
+        "ECU": {
+            "label": "Ecuador",
+            "value": "Ecuador"
+        },
+        "EGY": {
+            "label": "Egypt",
+            "value": "Egypt"
+        },
+        "SLV": {
+            "label": "El Salvador",
+            "value": "El Salvador"
+        },
+        "GNQ": {
+            "label": "Equatorial Guinea",
+            "value": "Equatorial Guinea"
+        },
+        "ERI": {
+            "label": "Eritrea",
+            "value": "Eritrea"
+        },
+        "EST": {
+            "label": "Estonia",
+            "value": "Estonia"
+        },
+        "ETH": {
+            "label": "Ethiopia",
+            "value": "Ethiopia"
+        },
+        "FRO": {
+            "label": "Faeroe Islands",
+            "value": "Faeroe Islands"
+        },
+        "FLK": {
+            "label": "Falkland Islands (Malvinas)",
+            "value": "Falkland Islands (Malvinas)"
+        },
+        "FJI": {
+            "label": "Fiji",
+            "value": "Fiji"
+        },
+        "FIN": {
+            "label": "Finland",
+            "value": "Finland"
+        },
+        "FRA": {
+            "label": "France",
+            "value": "France"
+        },
+        "GUF": {
+            "label": "French Guiana",
+            "value": "French Guiana"
+        },
+        "PYF": {
+            "label": "French Polynesia",
+            "value": "French Polynesia"
+        },
+        "GAB": {
+            "label": "Gabon",
+            "value": "Gabon"
+        },
+        "GMB": {
+            "label": "Gambia",
+            "value": "Gambia"
+        },
+        "GEO": {
+            "label": "Georgia",
+            "value": "Georgia"
+        },
+        "GHA": {
+            "label": "Ghana",
+            "value": "Ghana"
+        },
+        "GIB": {
+            "label": "Gibraltar",
+            "value": "Gibraltar"
+        },
+        "GRC": {
+            "label": "Greece",
+            "value": "Greece"
+        },
+        "GRL": {
+            "label": "Greenland",
+            "value": "Greenland"
+        },
+        "GRD": {
+            "label": "Grenada",
+            "value": "Grenada"
+        },
+        "GLP": {
+            "label": "Guadeloupe",
+            "value": "Guadeloupe"
+        },
+        "GUM": {
+            "label": "Guam",
+            "value": "Guam"
+        },
+        "GTM": {
+            "label": "Guatemala",
+            "value": "Guatemala"
+        },
+        "GGY": {
+            "label": "Guernsey",
+            "value": "Guernsey"
+        },
+        "GIN": {
+            "label": "Guinea",
+            "value": "Guinea"
+        },
+        "GNB": {
+            "label": "Guinea-Bissau",
+            "value": "Guinea-Bissau"
+        },
+        "GUY": {
+            "label": "Guyana",
+            "value": "Guyana"
+        },
+        "HTI": {
+            "label": "Haiti",
+            "value": "Haiti"
+        },
+        "VAT": {
+            "label": "Holy See",
+            "value": "Holy See"
+        },
+        "HND": {
+            "label": "Honduras",
+            "value": "Honduras"
+        },
+        "HUN": {
+            "label": "Hungary",
+            "value": "Hungary"
+        },
+        "ISL": {
+            "label": "Iceland",
+            "value": "Iceland"
+        },
+        "IND": {
+            "label": "India",
+            "value": "India"
+        },
+        "IDN": {
+            "label": "Indonesia",
+            "value": "Indonesia"
+        },
+        "IRN": {
+            "label": "Iran (Islamic Republic of)",
+            "value": "Iran (Islamic Republic of)"
+        },
+        "IRQ": {
+            "label": "Iraq",
+            "value": "Iraq"
+        },
+        "IRL": {
+            "label": "Ireland",
+            "value": "Ireland"
+        },
+        "IMN": {
+            "label": "Isle of Man",
+            "value": "Isle of Man"
+        },
+        "ISR": {
+            "label": "Israel",
+            "value": "Israel"
+        },
+        "ITA": {
+            "label": "Italy",
+            "value": "Italy"
+        },
+        "JAM": {
+            "label": "Jamaica",
+            "value": "Jamaica"
+        },
+        "JPN": {
+            "label": "Japan",
+            "value": "Japan"
+        },
+        "JOR": {
+            "label": "Jordan",
+            "value": "Jordan"
+        },
+        "KAZ": {
+            "label": "Kazakhstan",
+            "value": "Kazakhstan"
+        },
+        "KEN": {
+            "label": "Kenya",
+            "value": "Kenya"
+        },
+        "KIR": {
+            "label": "Kiribati",
+            "value": "Kiribati"
+        },
+        "KWT": {
+            "label": "Kuwait",
+            "value": "Kuwait"
+        },
+        "KGZ": {
+            "label": "Kyrgyzstan",
+            "value": "Kyrgyzstan"
+        },
+        "LAO": {
+            "label": "Lao People`s Democratic Republic",
+            "value": "Lao People`s Democratic Republic"
+        },
+        "LVA": {
+            "label": "Latvia",
+            "value": "Latvia"
+        },
+        "LBN": {
+            "label": "Lebanon",
+            "value": "Lebanon"
+        },
+        "LSO": {
+            "label": "Lesotho",
+            "value": "Lesotho"
+        },
+        "LBR": {
+            "label": "Liberia",
+            "value": "Liberia"
+        },
+        "LBY": {
+            "label": "Libyan Arab Jamahiriya",
+            "value": "Libyan Arab Jamahiriya"
+        },
+        "LIE": {
+            "label": "Liechtenstein",
+            "value": "Liechtenstein"
+        },
+        "LTU": {
+            "label": "Lithuania",
+            "value": "Lithuania"
+        },
+        "LUX": {
+            "label": "Luxembourg",
+            "value": "Luxembourg"
+        },
+        "MAC": {
+            "label": "Macao Special Administrative Region of China",
+            "value": "Macao Special Administrative Region of China"
+        },
+        "MDG": {
+            "label": "Madagascar",
+            "value": "Madagascar"
+        },
+        "MWI": {
+            "label": "Malawi",
+            "value": "Malawi"
+        },
+        "MYS": {
+            "label": "Malaysia",
+            "value": "Malaysia"
+        },
+        "MDV": {
+            "label": "Maldives",
+            "value": "Maldives"
+        },
+        "MLI": {
+            "label": "Mali",
+            "value": "Mali"
+        },
+        "MLT": {
+            "label": "Malta",
+            "value": "Malta"
+        },
+        "MHL": {
+            "label": "Marshall Islands",
+            "value": "Marshall Islands"
+        },
+        "MTQ": {
+            "label": "Martinique",
+            "value": "Martinique"
+        },
+        "MRT": {
+            "label": "Mauritania",
+            "value": "Mauritania"
+        },
+        "MUS": {
+            "label": "Mauritius",
+            "value": "Mauritius"
+        },
+        "MYT": {
+            "label": "Mayotte",
+            "value": "Mayotte"
+        },
+        "MEX": {
+            "label": "Mexico",
+            "value": "Mexico"
+        },
+        "FSM": {
+            "label": "Micronesia, Federated States of",
+            "value": "Micronesia, Federated States of"
+        },
+        "MCO": {
+            "label": "Monaco",
+            "value": "Monaco"
+        },
+        "MNG": {
+            "label": "Mongolia",
+            "value": "Mongolia"
+        },
+        "MNE": {
+            "label": "Montenegro",
+            "value": "Montenegro"
+        },
+        "MSR": {
+            "label": "Montserrat",
+            "value": "Montserrat"
+        },
+        "MAR": {
+            "label": "Morocco",
+            "value": "Morocco"
+        },
+        "MOZ": {
+            "label": "Mozambique",
+            "value": "Mozambique"
+        },
+        "MMR": {
+            "label": "Myanmar",
+            "value": "Myanmar"
+        },
+        "NAM": {
+            "label": "Namibia",
+            "value": "Namibia"
+        },
+        "NRU": {
+            "label": "Nauru",
+            "value": "Nauru"
+        },
+        "NPL": {
+            "label": "Nepal",
+            "value": "Nepal"
+        },
+        "NLD": {
+            "label": "Netherlands",
+            "value": "Netherlands"
+        },
+        "ANT": {
+            "label": "Netherlands Antilles",
+            "value": "Netherlands Antilles"
+        },
+        "NCL": {
+            "label": "New Caledonia",
+            "value": "New Caledonia"
+        },
+        "NZL": {
+            "label": "New Zealand",
+            "value": "New Zealand"
+        },
+        "NIC": {
+            "label": "Nicaragua",
+            "value": "Nicaragua"
+        },
+        "NER": {
+            "label": "Niger",
+            "value": "Niger"
+        },
+        "NGA": {
+            "label": "Nigeria",
+            "value": "Nigeria"
+        },
+        "NIU": {
+            "label": "Niue",
+            "value": "Niue"
+        },
+        "NFK": {
+            "label": "Norfolk Island",
+            "value": "Norfolk Island"
+        },
+        "MNP": {
+            "label": "Northern Mariana Islands",
+            "value": "Northern Mariana Islands"
+        },
+        "NOR": {
+            "label": "Norway",
+            "value": "Norway"
+        },
+        "PSE": {
+            "label": "Occupied Palestinian Territory",
+            "value": "Occupied Palestinian Territory"
+        },
+        "OMN": {
+            "label": "Oman",
+            "value": "Oman"
+        },
+        "PAK": {
+            "label": "Pakistan",
+            "value": "Pakistan"
+        },
+        "PLW": {
+            "label": "Palau",
+            "value": "Palau"
+        },
+        "PAN": {
+            "label": "Panama",
+            "value": "Panama"
+        },
+        "PNG": {
+            "label": "Papua New Guinea",
+            "value": "Papua New Guinea"
+        },
+        "PRY": {
+            "label": "Paraguay",
+            "value": "Paraguay"
+        },
+        "PER": {
+            "label": "Peru",
+            "value": "Peru"
+        },
+        "PHL": {
+            "label": "Philippines",
+            "value": "Philippines"
+        },
+        "PCN": {
+            "label": "Pitcairn",
+            "value": "Pitcairn"
+        },
+        "POL": {
+            "label": "Poland",
+            "value": "Poland"
+        },
+        "PRT": {
+            "label": "Portugal",
+            "value": "Portugal"
+        },
+        "PRI": {
+            "label": "Puerto Rico",
+            "value": "Puerto Rico"
+        },
+        "QAT": {
+            "label": "Qatar",
+            "value": "Qatar"
+        },
+        "KOR": {
+            "label": "Republic of Korea",
+            "value": "Republic of Korea"
+        },
+        "MDA": {
+            "label": "Republic of Moldova",
+            "value": "Republic of Moldova"
+        },
+        "REU": {
+            "label": "Reunion",
+            "value": "Reunion"
+        },
+        "ROM": {
+            "label": "Romania",
+            "value": "Romania"
+        },
+        "RUS": {
+            "label": "Russian Federation",
+            "value": "Russian Federation"
+        },
+        "RWA": {
+            "label": "Rwanda",
+            "value": "Rwanda"
+        },
+        "SHN": {
+            "label": "Saint Helena",
+            "value": "Saint Helena"
+        },
+        "KNA": {
+            "label": "Saint Kitts and Nevis",
+            "value": "Saint Kitts and Nevis"
+        },
+        "LCA": {
+            "label": "Saint Lucia",
+            "value": "Saint Lucia"
+        },
+        "SPM": {
+            "label": "Saint Pierre and Miquelon",
+            "value": "Saint Pierre and Miquelon"
+        },
+        "VCT": {
+            "label": "Saint Vincent and the Grenadines",
+            "value": "Saint Vincent and the Grenadines"
+        },
+        "WSM": {
+            "label": "Samoa",
+            "value": "Samoa"
+        },
+        "SMR": {
+            "label": "San Marino",
+            "value": "San Marino"
+        },
+        "STP": {
+            "label": "Sao Tome and Principe",
+            "value": "Sao Tome and Principe"
+        },
+        "SAU": {
+            "label": "Saudi Arabia",
+            "value": "Saudi Arabia"
+        },
+        "SEN": {
+            "label": "Senegal",
+            "value": "Senegal"
+        },
+        "SRB": {
+            "label": "Serbia",
+            "value": "Serbia"
+        },
+        "SYC": {
+            "label": "Seychelles",
+            "value": "Seychelles"
+        },
+        "SLE": {
+            "label": "Sierra Leone",
+            "value": "Sierra Leone"
+        },
+        "SGP": {
+            "label": "Singapore",
+            "value": "Singapore"
+        },
+        "SVK": {
+            "label": "Slovakia",
+            "value": "Slovakia"
+        },
+        "SVN": {
+            "label": "Slovenia",
+            "value": "Slovenia"
+        },
+        "SLB": {
+            "label": "Solomon Islands",
+            "value": "Solomon Islands"
+        },
+        "SOM": {
+            "label": "Somalia",
+            "value": "Somalia"
+        },
+        "ZAF": {
+            "label": "South Africa",
+            "value": "South Africa"
+        },
+        "SSD": {
+            "label": "South Sudan",
+            "value": "South Sudan"
+        },
+        "ESP": {
+            "label": "Spain",
+            "value": "Spain"
+        },
+        "LKA": {
+            "label": "Sri Lanka",
+            "value": "Sri Lanka"
+        },
+        "SDN": {
+            "label": "Sudan",
+            "value": "Sudan"
+        },
+        "SUR": {
+            "label": "Suriname",
+            "value": "Suriname"
+        },
+        "SJM": {
+            "label": "Svalbard and Jan Mayen Islands",
+            "value": "Svalbard and Jan Mayen Islands"
+        },
+        "SWZ": {
+            "label": "Swaziland",
+            "value": "Swaziland"
+        },
+        "SWE": {
+            "label": "Sweden",
+            "value": "Sweden"
+        },
+        "SYR": {
+            "label": "Syrian Arab Republic",
+            "value": "Syrian Arab Republic"
+        },
+        "TWN": {
+            "label": "Taiwan (Republic of China)",
+            "value": "Taiwan (Republic of China)"
+        },
+        "TJK": {
+            "label": "Tajikistan",
+            "value": "Tajikistan"
+        },
+        "THA": {
+            "label": "Thailand",
+            "value": "Thailand"
+        },
+        "MKD": {
+            "label": "The former Yugoslav Republic of Macedonia",
+            "value": "The former Yugoslav Republic of Macedonia"
+        },
+        "TGO": {
+            "label": "Togo",
+            "value": "Togo"
+        },
+        "TKL": {
+            "label": "Tokelau",
+            "value": "Tokelau"
+        },
+        "TON": {
+            "label": "Tonga",
+            "value": "Tonga"
+        },
+        "TTO": {
+            "label": "Trinidad and Tobago",
+            "value": "Trinidad and Tobago"
+        },
+        "TUN": {
+            "label": "Tunisia",
+            "value": "Tunisia"
+        },
+        "TUR": {
+            "label": "Turkey",
+            "value": "Turkey"
+        },
+        "TKM": {
+            "label": "Turkmenistan",
+            "value": "Turkmenistan"
+        },
+        "TCA": {
+            "label": "Turks and Caicos Islands",
+            "value": "Turks and Caicos Islands"
+        },
+        "TUV": {
+            "label": "Tuvalu",
+            "value": "Tuvalu"
+        },
+        "UGA": {
+            "label": "Uganda",
+            "value": "Uganda"
+        },
+        "UKR": {
+            "label": "Ukraine",
+            "value": "Ukraine"
+        },
+        "ARE": {
+            "label": "United Arab Emirates",
+            "value": "United Arab Emirates"
+        },
+        "TZA": {
+            "label": "United Republic of Tanzania",
+            "value": "United Republic of Tanzania"
+        },
+        "VIR": {
+            "label": "United States Virgin Islands",
+            "value": "United States Virgin Islands"
+        },
+        "URY": {
+            "label": "Uruguay",
+            "value": "Uruguay"
+        },
+        "UZB": {
+            "label": "Uzbekistan",
+            "value": "Uzbekistan"
+        },
+        "VUT": {
+            "label": "Vanuatu",
+            "value": "Vanuatu"
+        },
+        "VEN": {
+            "label": "Venezuela",
+            "value": "Venezuela"
+        },
+        "VNM": {
+            "label": "Viet Nam",
+            "value": "Viet Nam"
+        },
+        "WLF": {
+            "label": "Wallis and Futuna Islands",
+            "value": "Wallis and Futuna Islands"
+        },
+        "ESH": {
+            "label": "Western Sahara",
+            "value": "Western Sahara"
+        },
+        "YEM": {
+            "label": "Yemen",
+            "value": "Yemen"
+        },
+        "YUG": {
+            "label": "Yugoslavia",
+            "value": "Yugoslavia"
+        },
+        "ZMB": {
+            "label": "Zambia",
+            "value": "Zambia"
+        },
+        "ZWE": {
+            "label": "Zimbabwe",
+            "value": "Zimbabwe"
+        }
+    },
+    "categories": {
+        "1393": {
+            "id": "1393",
+            "label": "Account Security & Protection",
+            "subcategories": [
+                {
+                    "id": "1",
+                    "label": "Please choose the appropriate topic for 'Account Security & Protection'"
+                },
+                {
+                    "id": "1394",
+                    "label": "Security Device: Enrollment/Termination/Replacement"
+                },
+                {
+                    "id": "1395",
+                    "label": "Security Device: How to Use"
+                },
+                {
+                    "id": "1396",
+                    "label": "Unauthorized Trade, Withdrawal or Access"
+                },
+                {
+                    "id": "1397",
+                    "label": "Account Info Change Request"
+                },
+                {
+                    "id": "1398",
+                    "label": "Password"
+                }
+            ]
+        },
+        "1399": {
+            "id": "1399",
+            "label": "Account Services",
+            "subcategories": [
+                {
+                    "id": "2",
+                    "label": "Please choose the appropriate topic for 'Account Services'"
+                },
+                {
+                    "id": "1407",
+                    "label": "Close Account"
+                },
+                {
+                    "id": "1408",
+                    "label": "Corporate Actions/Dividends"
+                },
+                {
+                    "id": "1409",
+                    "label": "Account Configuration/Permissions"
+                },
+                {
+                    "id": "1410",
+                    "label": "Regulatory"
+                },
+                {
+                    "id": "1411",
+                    "label": "Commissions/Fees/Interest"
+                },
+                {
+                    "id": "1412",
+                    "label": "Complaints"
+                },
+                {
+                    "id": "1477",
+                    "label": "Market Data"
+                }
+            ]
+        },
+        "1400": {
+            "id": "1400",
+            "label": "Funds & Banking",
+            "subcategories": [
+                {
+                    "id": "3",
+                    "label": "Please choose the appropriate topic for 'Funds & Banking'"
+                },
+                {
+                    "id": "1414",
+                    "label": "Cash Deposits"
+                },
+                {
+                    "id": "1415",
+                    "label": "Position Transfers"
+                },
+                {
+                    "id": "1416",
+                    "label": "Other Deposits and Withdrawls"
+                },
+                {
+                    "id": "1459",
+                    "label": "Cash Withdrawals"
+                },
+                {
+                    "id": "1460",
+                    "label": "Transaction Status"
+                },
+                {
+                    "id": "1462",
+                    "label": "Hold Period/Withdrawal Restrictions"
+                }
+            ]
+        },
+        "1401": {
+            "id": "1401",
+            "label": "How to Use",
+            "subcategories": [
+                {
+                    "id": "4",
+                    "label": "Please choose the appropriate topic for 'How to Use'"
+                },
+                {
+                    "id": "1417",
+                    "label": "TWS"
+                },
+                {
+                    "id": "1418",
+                    "label": "Web Trader"
+                },
+                {
+                    "id": "1419",
+                    "label": "Mobile Trader"
+                },
+                {
+                    "id": "1420",
+                    "label": "Interactive Analytics"
+                },
+                {
+                    "id": "1421",
+                    "label": "Charts"
+                },
+                {
+                    "id": "1422",
+                    "label": "Account Management"
+                }
+            ]
+        },
+        "1402": {
+            "id": "1402",
+            "label": "Products",
+            "subcategories": [
+                {
+                    "id": "5",
+                    "label": "Please choose the appropriate topic for 'Products'"
+                },
+                {
+                    "id": "1423",
+                    "label": "Request new product"
+                },
+                {
+                    "id": "1424",
+                    "label": "Exchange Information/Request"
+                },
+                {
+                    "id": "1461",
+                    "label": "Mutual Funds"
+                },
+                {
+                    "id": "1463",
+                    "label": "Stocks/ETFs"
+                },
+                {
+                    "id": "1464",
+                    "label": "Options/Warrants"
+                },
+                {
+                    "id": "1465",
+                    "label": "Bonds"
+                },
+                {
+                    "id": "1466",
+                    "label": "Futures/Options on Futures"
+                },
+                {
+                    "id": "1517",
+                    "label": "Forex"
+                }
+            ]
+        },
+        "1403": {
+            "id": "1403",
+            "label": "Professional Services",
+            "subcategories": [
+                {
+                    "id": "6",
+                    "label": "Please choose the appropriate topic for 'Professional Services'"
+                },
+                {
+                    "id": "1425",
+                    "label": "Financial Advisor"
+                },
+                {
+                    "id": "1426",
+                    "label": "Prime Brokerage"
+                },
+                {
+                    "id": "1427",
+                    "label": "Broker"
+                },
+                {
+                    "id": "1428",
+                    "label": "Institutional"
+                }
+            ]
+        },
+        "1404": {
+            "id": "1404",
+            "label": "Technical Assistance",
+            "subcategories": [
+                {
+                    "id": "7",
+                    "label": "Please choose the appropriate topic for 'Technical Assistance'"
+                },
+                {
+                    "id": "1429",
+                    "label": "Installation (TWS, Web Trader, Mobile Trader)"
+                },
+                {
+                    "id": "1430",
+                    "label": "Connectivity"
+                },
+                {
+                    "id": "1431",
+                    "label": "TWS, Web Trader, Mobile Trader Operation"
+                },
+                {
+                    "id": "1432",
+                    "label": "Other TAC"
+                },
+                {
+                    "id": "1488",
+                    "label": "API"
+                }
+            ]
+        },
+        "1405": {
+            "id": "1405",
+            "label": "Trade Issues",
+            "subcategories": [
+                {
+                    "id": "8",
+                    "label": "Please choose the appropriate topic for 'Trade Issues'"
+                },
+                {
+                    "id": "1433",
+                    "label": "Order Status"
+                },
+                {
+                    "id": "1434",
+                    "label": "Execution inquiry"
+                },
+                {
+                    "id": "1435",
+                    "label": "Margin"
+                },
+                {
+                    "id": "1436",
+                    "label": "Liquidation"
+                },
+                {
+                    "id": "1437",
+                    "label": "Other Trade Problem"
+                }
+            ]
+        },
+        "1468": {
+            "id": "1468",
+            "label": "Activity & Tax Statements",
+            "subcategories": [
+                {
+                    "id": "9",
+                    "label": "Please choose the appropriate topic for 'Activity & Tax Statements'"
+                },
+                {
+                    "id": "1469",
+                    "label": "Archived statement request"
+                },
+                {
+                    "id": "1470",
+                    "label": "Statement Explanation"
+                },
+                {
+                    "id": "1471",
+                    "label": "How to Locate/Download a statement"
+                },
+                {
+                    "id": "1472",
+                    "label": "Tax Forms"
+                },
+                {
+                    "id": "1473",
+                    "label": "W8/W9"
+                },
+                {
+                    "id": "1474",
+                    "label": "Flex Statements"
+                }
+            ]
+        },
+        "1475": {
+            "id": "1475",
+            "label": "Commissions, Fees & Interest",
+            "subcategories": [
+                {
+                    "id": "10",
+                    "label": "Please choose the appropriate topic for 'Commissions, Fees & Interest'"
+                },
+                {
+                    "id": "1476",
+                    "label": "Bundled/Unbundled Commissions"
+                },
+                {
+                    "id": "1478",
+                    "label": "Monthly Activity Fee"
+                },
+                {
+                    "id": "1479",
+                    "label": "Order Cancellation/Modification"
+                },
+                {
+                    "id": "1480",
+                    "label": "Other Fees"
+                },
+                {
+                    "id": "1481",
+                    "label": "Interest"
+                }
+            ]
+        },
+        "1483": {
+            "id": "1483",
+            "label": "Application Assistance",
+            "subcategories": [
+                {
+                    "id": "11",
+                    "label": "Please choose the appropriate topic for 'Application Assistance'"
+                },
+                {
+                    "id": "1484",
+                    "label": "Application Status"
+                },
+                {
+                    "id": "1485",
+                    "label": "Document Request"
+                },
+                {
+                    "id": "1486",
+                    "label": "Assistance with Online Application"
+                },
+                {
+                    "id": "1487",
+                    "label": "Contact Sales Representative"
+                }
+            ]
+        },
+        "1500": {
+            "id": "1500",
+            "label": "IBIS",
+            "subcategories": [
+                {
+                    "id": "12",
+                    "label": "Please choose the appropriate topic for 'IBIS'"
+                },
+                {
+                    "id": "1543",
+                    "label": "Billing & Fees"
+                },
+                {
+                    "id": "1561",
+                    "label": "Installation"
+                },
+                {
+                    "id": "1562",
+                    "label": "Connectivity"
+                },
+                {
+                    "id": "1563",
+                    "label": "Other"
+                }
+            ]
+        }
+    }
+}
