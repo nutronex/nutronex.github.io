@@ -1,6 +1,11 @@
 <html>
     <head></head>
     <body>
+       <!--
         <iframe src="javascript:parent.document.body.innerHTML='<img/src=x onerror=alert(document.domain)//>'" sandbox="allow-scripts allow-same-origin"></iframe>
+       -->
+        <script>
+            document.write('<a href="'+location.search.split('=')[1]+'">click me</a>');
+        </script>
     </body>
 </html>
