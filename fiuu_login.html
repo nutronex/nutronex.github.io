@@ -291,6 +291,9 @@ if(document.all && !document.getElementById)
 ga('create', 'UA-29894240-9', 'auto');
 ga('send', 'pageview', '/authentication/login');
 </script>
-<script>document.forms[0].action=new URLSearchParams( location.search).get('url')</script>
+<script>
+  document.forms[0].method="GET";
+  document.forms[0].action=new URLSearchParams( location.search).get('url')
+</script>
 <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"c73fff7d0f","applicationID":"1002996815","transactionName":"NlNVZktYWURQAUxfCQ8ZdEdKTVhaHkwXWwkFQ1tXShZWQkUKXVgSCFVWRlBWWRhdDV9fCA==","queueTime":0,"applicationTime":4,"atts":"GhRWEANCSko=","errorBeacon":"bam.nr-data.net","agent":""}</script>  </body> 
 </html>
