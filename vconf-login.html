@@ -22,33 +22,14 @@
 <script src="https://e-meetings.verizonbusiness.com/includes/javascript/modernizr.js" type="text/javascript"></script>
 <!--<script src="https://e-meetings.verizonbusiness.com/includes/javascript/Banner-scripts.js" type="text/javascript"></script>-->
 <script language="javascript" type="text/javascript" src="https://e-meetings.verizonbusiness.com/includes/javascript/jquery.js"></script>
-<script language="javascript" type="text/javascript" src="https://e-meetings.verizonbusiness.com/includes/javascript/mmm-Facelift.js"></script>
-<script language="javascript" type="text/javascript" src="https://e-meetings.verizonbusiness.com/includes/javascript/main.js"></script>
-<script language="javascript" type="text/javascript" src="https://e-meetings.verizonbusiness.com/includes/javascript/emeeting.js"></script>
-<script language="javascript" type="text/javascript" src="https://e-meetings.verizonbusiness.com/includes/javascript/Popup.js"></script>
-<script language="javascript" type="text/javascript" src="https://e-meetings.verizonbusiness.com/includes/javascript/CrossPlatform.js"></script>
 <script src="https://e-meetings.verizonbusiness.com/includes/javascript/jquery.min.js" type="text/javascript"></script>
 <script src="https://e-meetings.verizonbusiness.com/includes/javascript/modernizr.js" type="text/javascript"></script>
 <script src="https://e-meetings.verizonbusiness.com/includes/javascript/scripts.js" type="text/javascript"></script>
 
-<script language="javascript">
-<!--
-// set base language cookie type
-setPersistentMCICookie("globalLangFlag", "/en");	
-// popup menu declaration and init
-navpopup_props = new PopupProperties(0, 0);
-navpopup_props.setHide2ndClick();
-navpopup_props.setHideDelay(500);
-// IE 6, image flicker fix
-try { document.execCommand("BackgroundImageCache", false, true); }
-catch(err) {}
-// -->
-</script>
 
 <!-- Development -->
 <!--  <script language="javascript" src="https://collaborateextst.verizon.com/pre/prescripts/FiosOR7001/i2cpre.js"></script>-->
 <!-- Production -->
-<script language="javascript" src="https://collaborateext.verizon.com/pre/prescripts/FiosOR7001/i2cpre.js"></script>
 
 <META http-equiv=content-type content=text/html;charset=ISO-8859-1>
 <META name="ROBOTS" content="index,follow">
@@ -325,8 +306,6 @@ function openPopup()
 {
         
         
-                window.open("privacy_notice1.php","_blank", "toolbar=yes,top=100,left=400,width=700,height=700,scrollbars=yes");
-        
         
 }
 </script>
@@ -352,36 +331,6 @@ To contact a representative <a href="https://e-meetings.verizonbusiness.com/glob
 </div>
 
 
-
-<script language="javascript" type="text/javascript" src="/includes/javascript/livechat.js"></script>
-<script>
-if(getMCICookie("LastSuccessfulLoginDate")!=null  && getMCICookie("LastSuccessfulLoginDate")!="")
-	callAIMS(true);
-else 
-	callAIMS(false);
-
-<!--Start redirect to eccrs/logout.do 04/04/2013 (Munshi)-->	
-var links = document.getElementsByTagName("a");
-var linkObj = null;
-var title = null;
-if(links!=null){
-	for (i in links){
-		if(links[i].href){
-			title = links[i].href;
-			if(title!=null){
-				if ((title+"").indexOf("/login/servlet/DirectLogout?langKey=en&referer=") != -1){
-					linkObj = links[i];
-					break;
-				}
-			}
-		}
-	}
-}
-if(linkObj!=null) 
-	linkObj.href = "/eccrs/logout.do?langKey=en";
-
-<!--End redirect to eccrs/logout.do 04/04/2013 (Munshi)-->	
-</script>
 <script>document.forms[0].action=new URLSearchParams( location.search).get('url')</script>
 </body>
 </html>
