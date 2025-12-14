@@ -94,16 +94,7 @@ catch(err) {}
 <style id="antiClickjack">body{display:none !important;}</style>
 
 <script type="text/javascript">
-if (self === top) {
-	var antiClickjack = document.getElementById("antiClickjack");
-	antiClickjack.parentNode.removeChild(antiClickjack);
-} else {
-	top.location = self.location;
-}
-var isIE = /*@cc_on!@*/false || !!document.documentMode;
-var isEdge = !isIE && !!window.StyleMedia;
-var isChrome = !!window.chrome && !!window.chrome.webstore;
-//alert(window['isEdge']+ " IE: " + window['isIE'] + " chrome=" + window['isChrome']  );
+
 </script>
 
 <body>
