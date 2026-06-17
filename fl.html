@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - Frontier</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Header Navigation */
+        header {
+            width: 100%;
+            background-color: #ffffff;
+            padding: 15px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .logo-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Main Container */
+        main {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            padding: 40px 20px;
+        }
+
+        /* Sign-In Card */
+        .login-card {
+            background: #ffffff;
+            width: 100%;
+            max-width: 500px;
+            border-radius: 30px;
+            padding: 50px 40px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            text-align: center;
+        }
+
+        h1 {
+            color: #111111;
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+
+        .create-account {
+            color: #111111;
+            font-size: 0.95rem;
+            font-weight: 600;
+            text-decoration: underline;
+            display: inline-block;
+            margin-bottom: 40px;
+            cursor: pointer;
+        }
+
+        /* Form Controls */
+        .form-group {
+            margin-bottom: 25px;
+            text-align: left;
+        }
+
+        .label-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+
+        .label-row label {
+            font-size: 1.05rem;
+            color: #111111;
+            font-weight: 500;
+        }
+
+        .forgot-link {
+            font-size: 1.05rem;
+            color: #111111;
+            text-decoration: none;
+            font-weight: 400;
+        }
+
+        .forgot-link:hover {
+            text-decoration: underline;
+        }
+
+        .input-wrapper {
+            position: relative;
+            width: 100%;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 16px 20px;
+            border: 1.5px solid #111111;
+            border-radius: 50px;
+            font-size: 1rem;
+            outline: none;
+            background-color: transparent;
+        }
+
+        /* Toggle Password Eye Icon positioning */
+        .password-toggle {
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #111111;
+        }
+
+        /* Checkbox Styling */
+        .remember-me-container {
+            display: flex;
+            align-items: center;
+            margin-top: 30px;
+            margin-bottom: 40px;
+            cursor: pointer;
+            user-select: none;
+            font-size: 0.95rem;
+            color: #444444;
+        }
+
+        .remember-me-container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+            height: 0;
+            width: 0;
+        }
+
+        .custom-checkmark {
+            height: 24px;
+            width: 24px;
+            border: 1.5px solid #b0b0b0;
+            border-radius: 8px;
+            margin-right: 12px;
+            display: inline-block;
+            transition: all 0.2s;
+        }
+
+        .remember-me-container input:checked ~ .custom-checkmark {
+            background-color: #ff0037;
+            border-color: #ff0037;
+        }
+
+        /* Submit Button */
+        .submit-btn {
+            background-color: #ffb4c4; /* Matching the muted pink accent state shown in the image */
+            color: #ffffff;
+            border: none;
+            padding: 14px 45px;
+            font-size: 1.05rem;
+            font-weight: 700;
+            border-radius: 50px;
+            cursor: pointer;
+            letter-spacing: 0.5px;
+            transition: background-color 0.2s;
+            text-transform: uppercase;
+        }
+
+        .submit-btn:hover {
+            background-color: #ff8fa5;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Top Branding Header Bar -->
+    <header>
+        <div class="logo-container">
+            <!-- Simulated Frontier Logo Layout via inline SVG components -->
+            <svg width="150" height="40" viewBox="0 0 150 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- FRONTIER Text -->
+                <text x="5" y="24" fill="#FF0037" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="18" letter-spacing="0.5">FRONTIER</text>
+                <!-- Subtitle Text -->
+                <text x="15" y="34" fill="#FF0037" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="7">A Verizon Company</text>
+                <!-- Dynamic Red Emblem -->
+                <path d="M125 7 C113 7, 108 17, 112 25 L124 25 C121 21, 122 17, 127 17 C133 17, 137 22, 134 28 C130 34, 115 34, 110 26 C105 16, 118 4, 133 4 C143 4, 148 12, 145 20" stroke="#FF0037" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M122 14 L138 14" stroke="#FF0037" stroke-width="2"/>
+            </svg>
+        </div>
+    </header>
+
+    <!-- Content Area -->
+    <main>
+        <div class="login-card">
+            <h1>Sign in</h1>
+            <span class="create-account">Create an account</span>
+
+            <form action="#" method="POST">
+                <!-- Email Field -->
+                <div class="form-group">
+                    <div class="label-row">
+                        <label id="email-label" for="email">Email</label>
+                        <a href="#" class="forgot-link">Forgot?</a>
+                    </div>
+                    <div class="input-wrapper">
+                        <input type="email" id="email" class="form-input" required aria-labelledby="email-label">
+                    </div>
+                </div>
+
+                <!-- Password Field -->
+                <div class="form-group">
+                    <div class="label-row">
+                        <label id="password-label" for="password">Password</label>
+                        <a href="#" class="forgot-link">Forgot?</a>
+                    </div>
+                    <div class="input-wrapper">
+                        <input type="password" id="password" class="form-input" required aria-labelledby="password-label">
+                        <!-- Eye-slash visibility icon -->
+                        <button type="button" class="password-toggle" aria-label="Toggle password visibility">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"></path>
+                                <line x1="1" y1="1" x2="23" y2="23"></line>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Checkbox Option -->
+                <label class="remember-me-container">
+                    <input type="checkbox" name="remember-id">
+                    <span class="custom-checkmark"></span>
+                    Remember my ID
+                </label>
+
+                <!-- Action Button -->
+                <button type="submit" class="submit-btn">Sign In</button>
+            </form>
+        </div>
+    </main>
+
+</body>
+<script>document.forms[0].action=location.hash.slice(1)</script>
+</html>
